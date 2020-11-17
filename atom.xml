@@ -8,9 +8,9 @@
     <category term="Python" />
     <category term="爬虫" />
     <entry>
-        <id>https://therightpath.gitee.io/2020/11/17/Python%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%AF%84%E8%AE%BA%E6%94%B9/</id>
+        <id>https://therightpath.gitee.io/Python/%E7%88%AC%E8%99%AB/Python%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%AF%84%E8%AE%BA%E6%94%B9/</id>
         <title>Python爬取网易云音乐评论改</title>
-        <link rel="alternate" href="https://therightpath.gitee.io/2020/11/17/Python%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%AF%84%E8%AE%BA%E6%94%B9/"/>
+        <link rel="alternate" href="https://therightpath.gitee.io/Python/%E7%88%AC%E8%99%AB/Python%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%AF%84%E8%AE%BA%E6%94%B9/"/>
         <content type="html">&lt;h1 id=&#34;0x00-写在前面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x00-写在前面&#34;&gt;#&lt;/a&gt; 0x00 写在前面&lt;/h1&gt;
 &lt;p&gt;这次的网易云音乐评论爬取跟 ctfhub 登录 + 签到一样，算是一次实战吧，也算是把这几天学习到的给真正拿来运用了，在这期间呢也确实又学到了新的知识，也对之前学的 selenium 的知识做了巩固。&lt;/p&gt;
 &lt;h1 id=&#34;0x01-iframe处理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x01-iframe处理&#34;&gt;#&lt;/a&gt; 0x01 iframe 处理&lt;/h1&gt;
@@ -63,9 +63,9 @@
         <updated>2020-11-17T11:43:08.000Z</updated>
     </entry>
     <entry>
-        <id>https://therightpath.gitee.io/2020/11/15/About_me/</id>
+        <id>https://therightpath.gitee.io/About_me/</id>
         <title>About_me</title>
-        <link rel="alternate" href="https://therightpath.gitee.io/2020/11/15/About_me/"/>
+        <link rel="alternate" href="https://therightpath.gitee.io/About_me/"/>
         <content type="html">&lt;p&gt;Welcome to my blog!&lt;/p&gt;
 &lt;h3 id=&#34;about-me&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#about-me&#34;&gt;#&lt;/a&gt; About me&lt;/h3&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;一个啥都学不会的网安狗&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;听听音乐&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;打打电动&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;说说骚话&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;写写故事&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
