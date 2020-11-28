@@ -14,7 +14,12 @@
         <title>SCUx401CTF新生赛writeup</title>
         <link rel="alternate" href="https://therightpath.gitee.io/CTF/writeup/SCUx401CTF%E6%96%B0%E7%94%9F%E8%B5%9Bwp/"/>
         <content type="html">&lt;h1 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h1&gt;
-&lt;p&gt;其实刚开始打的时候没想过拿什么名次，因为本身就没什么技术，而且除了 19 级的大佬萌，20 级又有很多大佬，但是队友&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3NvNG1zLnRvcC8=&#34;&gt; So4ms&lt;/span&gt; 太猛了，基本所有的 web 跟 pwn 都是队友写的，So4ms 太强力，这篇 wp 的 web 跟 pwn 部分都是队友写的，另外，通过这次比赛第一次见识到了 AI 跟区块链，感觉确实学到了很多新姿势，出题师傅们都太棒了 (指题目出 bug 了还送小礼物 [bushi]).&lt;/p&gt;
+&lt;p&gt;其实刚开始打的时候没想过拿什么名次，因为本身就没什么技术，而且除了 19 级的大佬萌，20 级又有很多大佬，但是队友 So4ms 太猛了，基本所有的 web 跟 pwn 都是队友写的，So4ms 太强力，这篇 wp 的 web 跟 pwn 部分都是队友写的，另外，通过这次比赛第一次见识到了 AI 跟区块链，感觉确实学到了很多新姿势，出题师傅们都太棒了 (指题目出 bug 了还送小礼物 [bushi]). 这里再贴一个队友的链接&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;So4ms&#34; style=&#34;--block-color:#94c9ff;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cDovL3NvNG1zLnRvcC8=&#34; data-background-image=&#34;http://so4ms.top/wp-content/uploads/2020/11/1602468269720.jpeg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cDovL3NvNG1zLnRvcC8=&#34;&gt;Peace &amp; Love&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;So4ms, yyds!&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;h1 id=&#34;misc&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#misc&#34;&gt;#&lt;/a&gt; misc&lt;/h1&gt;
 &lt;h3 id=&#34;奇怪的记录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#奇怪的记录&#34;&gt;#&lt;/a&gt; 奇怪的记录&lt;/h3&gt;
 &lt;p&gt;看题目应该就是域名 txt 记录了，cmd 输入 &lt;code&gt;nslookup -q=txt flag.0x401.com&lt;/code&gt;  就拿到了 flag。&lt;/p&gt;
