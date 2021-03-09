@@ -2,11 +2,11 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "7RPH • All posts by \"杂\" tag",
     "description": "",
-    "home_page_url": "https://therightpath.gitee.io",
+    "home_page_url": "https://7rph.github.io/blog",
     "items": [
         {
-            "id": "https://therightpath.gitee.io/%E6%9D%82/About_me/",
-            "url": "https://therightpath.gitee.io/%E6%9D%82/About_me/",
+            "id": "https://7rph.github.io/blog/%E6%9D%82/About_me/",
+            "url": "https://7rph.github.io/blog/%E6%9D%82/About_me/",
             "title": "About_me",
             "date_published": "2020-11-15T10:26:17.000Z",
             "content_html": "<p>Welcome to my blog!</p>\n<h3 id=\"about-me\"><a class=\"anchor\" href=\"#about-me\">#</a> About me</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>一个啥都学不会的网安狗</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>听听音乐</pre></td></tr><tr><td data-num=\"3\"></td><td><pre>打打电动</pre></td></tr><tr><td data-num=\"4\"></td><td><pre>说说骚话</pre></td></tr><tr><td data-num=\"5\"></td><td><pre>写写博客</pre></td></tr></table></figure>",

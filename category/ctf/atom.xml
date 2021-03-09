@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://therightpath.gitee.io</id>
+    <id>https://7rph.github.io/blog</id>
     <title>7RPH • Posts by &#34;ctf&#34; category</title>
-    <link href="https://therightpath.gitee.io" />
+    <link href="https://7rph.github.io/blog" />
     <updated>2021-02-09T13:50:16.000Z</updated>
     <category term="杂" />
     <category term="CTF" />
@@ -12,9 +12,9 @@
     <category term="Python" />
     <category term="爬虫" />
     <entry>
-        <id>https://therightpath.gitee.io/CTF/writeup/sxcctf/</id>
+        <id>https://7rph.github.io/blog/CTF/writeup/sxcctf/</id>
         <title>sxcctfwriteup</title>
-        <link rel="alternate" href="https://therightpath.gitee.io/CTF/writeup/sxcctf/"/>
+        <link rel="alternate" href="https://7rph.github.io/blog/CTF/writeup/sxcctf/"/>
         <content type="html">&lt;h1 id=&#34;misc&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#misc&#34;&gt;#&lt;/a&gt; Misc&lt;/h1&gt;
 &lt;h2 id=&#34;拼图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#拼图&#34;&gt;#&lt;/a&gt; 拼图&lt;/h2&gt;
 &lt;p&gt;拿到拼图后，根据描述，鬼刀公主，百度一个 1920*1200 的原图，然后直接脚本梭&lt;/p&gt;
@@ -81,9 +81,9 @@
         <updated>2021-02-09T13:50:16.000Z</updated>
     </entry>
     <entry>
-        <id>https://therightpath.gitee.io/CTF/Misc/CTFShow%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/</id>
+        <id>https://7rph.github.io/blog/CTF/Misc/CTFShow%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/</id>
         <title>CTFShow刷题笔记(持续更新)</title>
-        <link rel="alternate" href="https://therightpath.gitee.io/CTF/Misc/CTFShow%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://7rph.github.io/blog/CTF/Misc/CTFShow%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;h2 id=&#34;你喜欢龙猫吗&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#你喜欢龙猫吗&#34;&gt;#&lt;/a&gt; ⎛⎝你喜欢龙猫吗⎠⎞&lt;/h2&gt;
 &lt;p&gt;得到 jpg 后 winhex 查看，通过 jpg 文件头 (FF D8 FF E0) 可以知道每个 16 进制值都被减了 1&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://imgchr.com/i/ymHqr4&#34;&gt;&lt;img data-src=&#34;https://s3.ax1x.com/2021/02/02/ymHqr4.png&#34; alt=&#34;ymHqr4.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -213,9 +213,9 @@
         <updated>2021-02-02T12:30:23.000Z</updated>
     </entry>
     <entry>
-        <id>https://therightpath.gitee.io/CTF/writeup/DJBCTF%E6%9D%82%E9%A1%B9%E9%83%A8%E5%88%86writeup/</id>
+        <id>https://7rph.github.io/blog/CTF/writeup/DJBCTF%E6%9D%82%E9%A1%B9%E9%83%A8%E5%88%86writeup/</id>
         <title>DJBCTF杂项部分wp</title>
-        <link rel="alternate" href="https://therightpath.gitee.io/CTF/writeup/DJBCTF%E6%9D%82%E9%A1%B9%E9%83%A8%E5%88%86writeup/"/>
+        <link rel="alternate" href="https://7rph.github.io/blog/CTF/writeup/DJBCTF%E6%9D%82%E9%A1%B9%E9%83%A8%E5%88%86writeup/"/>
         <content type="html">&lt;h2 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h2&gt;
 &lt;p&gt;本菜鸡又去打比赛了，又是一次被师傅们各种吊打的经历 [误]，拿了两个 3 血跟一个水杯还是很开心哒，ctfshow 平台的师傅们脑洞都太大啦我这种杂项狗深受折磨，不过比赛的时候出题师傅们都很耐心的给提示，也都在群里讨论，这里也算是给 ctfshow 打个广告吧 233333&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://imgchr.com/i/sLirqg&#34;&gt;&lt;img data-src=&#34;https://s3.ax1x.com/2021/01/25/sLirqg.md.png&#34; alt=&#34;sLirqg.md.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -322,9 +322,9 @@
         <updated>2021-01-25T05:44:25.000Z</updated>
     </entry>
     <entry>
-        <id>https://therightpath.gitee.io/CTF/writeup/SCUx401CTF%E6%96%B0%E7%94%9F%E8%B5%9Bwp/</id>
+        <id>https://7rph.github.io/blog/CTF/writeup/SCUx401CTF%E6%96%B0%E7%94%9F%E8%B5%9Bwp/</id>
         <title>SCUx401CTF新生赛writeup</title>
-        <link rel="alternate" href="https://therightpath.gitee.io/CTF/writeup/SCUx401CTF%E6%96%B0%E7%94%9F%E8%B5%9Bwp/"/>
+        <link rel="alternate" href="https://7rph.github.io/blog/CTF/writeup/SCUx401CTF%E6%96%B0%E7%94%9F%E8%B5%9Bwp/"/>
         <content type="html">&lt;h1 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h1&gt;
 &lt;p&gt;其实刚开始打的时候是纯玩票性质的，因为本身就没什么技术，而且除了 19 级的大佬萌，20 级又有很多大佬，但是队友&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3NvNG1zLnRvcC8=&#34;&gt; So4ms&lt;/span&gt; 太猛了，基本所有的 web 跟 pwn 都是队友写的，So4ms 太强力，这篇 wp 的 web 跟 pwn 部分都是队友写的，另外，通过这次比赛第一次见识到了 AI 跟区块链，感觉确实学到了很多新姿势，出题师傅们都太棒了 (指题目出 bug 了还送小礼物 [bushi]). 这里再贴一个队友的链接&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;So4ms&#34; style=&#34;--block-color:#94c9ff;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cDovL3NvNG1zLnRvcC8=&#34; data-background-image=&#34;http://so4ms.top/wp-content/uploads/2020/11/1602468269720.jpeg&#34;&gt;&lt;/span&gt;

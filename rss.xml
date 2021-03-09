@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>7RPH</title>
-        <link>https://therightpath.gitee.io</link>
+        <link>https://7rph.github.io/blog</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Tue, 09 Feb 2021 21:50:16 +0800</pubDate>
@@ -15,9 +15,9 @@
         <category>Python</category>
         <category>爬虫</category>
         <item>
-            <guid isPermalink="true">https://therightpath.gitee.io/CTF/writeup/sxcctf/</guid>
+            <guid isPermalink="true">https://7rph.github.io/blog/CTF/writeup/sxcctf/</guid>
             <title>sxcctfwriteup</title>
-            <link>https://therightpath.gitee.io/CTF/writeup/sxcctf/</link>
+            <link>https://7rph.github.io/blog/CTF/writeup/sxcctf/</link>
             <category>CTF</category>
             <category>misc</category>
             <category>writeup</category>
@@ -84,9 +84,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://therightpath.gitee.io/CTF/Misc/CTFShow%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/</guid>
+            <guid isPermalink="true">https://7rph.github.io/blog/CTF/Misc/CTFShow%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/</guid>
             <title>CTFShow刷题笔记(持续更新)</title>
-            <link>https://therightpath.gitee.io/CTF/Misc/CTFShow%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/</link>
+            <link>https://7rph.github.io/blog/CTF/Misc/CTFShow%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/</link>
             <category>CTF</category>
             <category>misc</category>
             <pubDate>Tue, 02 Feb 2021 20:30:23 +0800</pubDate>
@@ -216,9 +216,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://therightpath.gitee.io/CTF/writeup/DJBCTF%E6%9D%82%E9%A1%B9%E9%83%A8%E5%88%86writeup/</guid>
+            <guid isPermalink="true">https://7rph.github.io/blog/CTF/writeup/DJBCTF%E6%9D%82%E9%A1%B9%E9%83%A8%E5%88%86writeup/</guid>
             <title>DJBCTF杂项部分wp</title>
-            <link>https://therightpath.gitee.io/CTF/writeup/DJBCTF%E6%9D%82%E9%A1%B9%E9%83%A8%E5%88%86writeup/</link>
+            <link>https://7rph.github.io/blog/CTF/writeup/DJBCTF%E6%9D%82%E9%A1%B9%E9%83%A8%E5%88%86writeup/</link>
             <category>CTF</category>
             <category>writeup</category>
             <category>Misc</category>
@@ -325,9 +325,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://therightpath.gitee.io/CTF/writeup/SCUx401CTF%E6%96%B0%E7%94%9F%E8%B5%9Bwp/</guid>
+            <guid isPermalink="true">https://7rph.github.io/blog/CTF/writeup/SCUx401CTF%E6%96%B0%E7%94%9F%E8%B5%9Bwp/</guid>
             <title>SCUx401CTF新生赛writeup</title>
-            <link>https://therightpath.gitee.io/CTF/writeup/SCUx401CTF%E6%96%B0%E7%94%9F%E8%B5%9Bwp/</link>
+            <link>https://7rph.github.io/blog/CTF/writeup/SCUx401CTF%E6%96%B0%E7%94%9F%E8%B5%9Bwp/</link>
             <category>CTF</category>
             <category>writeup</category>
             <pubDate>Sat, 28 Nov 2020 14:31:52 +0800</pubDate>
@@ -626,9 +626,9 @@ via:hgg.com
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://therightpath.gitee.io/Python/%E7%88%AC%E8%99%AB/Python%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%AF%84%E8%AE%BA%E6%94%B9/</guid>
+            <guid isPermalink="true">https://7rph.github.io/blog/Python/%E7%88%AC%E8%99%AB/Python%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%AF%84%E8%AE%BA%E6%94%B9/</guid>
             <title>Python爬取网易云音乐评论</title>
-            <link>https://therightpath.gitee.io/Python/%E7%88%AC%E8%99%AB/Python%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%AF%84%E8%AE%BA%E6%94%B9/</link>
+            <link>https://7rph.github.io/blog/Python/%E7%88%AC%E8%99%AB/Python%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%AF%84%E8%AE%BA%E6%94%B9/</link>
             <category>Python</category>
             <category>爬虫</category>
             <pubDate>Tue, 17 Nov 2020 19:43:08 +0800</pubDate>
@@ -681,9 +681,9 @@ via:hgg.com
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://therightpath.gitee.io/%E6%9D%82/About_me/</guid>
+            <guid isPermalink="true">https://7rph.github.io/blog/%E6%9D%82/About_me/</guid>
             <title>About_me</title>
-            <link>https://therightpath.gitee.io/%E6%9D%82/About_me/</link>
+            <link>https://7rph.github.io/blog/%E6%9D%82/About_me/</link>
             <category>杂</category>
             <pubDate>Sun, 15 Nov 2020 18:26:17 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to my blog!&lt;/p&gt;

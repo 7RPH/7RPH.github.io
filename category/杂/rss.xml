@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>7RPH • Posts by &#34;杂&#34; category</title>
-        <link>https://therightpath.gitee.io</link>
+        <link>https://7rph.github.io/blog</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Sun, 15 Nov 2020 18:26:17 +0800</pubDate>
@@ -15,9 +15,9 @@
         <category>Python</category>
         <category>爬虫</category>
         <item>
-            <guid isPermalink="true">https://therightpath.gitee.io/%E6%9D%82/About_me/</guid>
+            <guid isPermalink="true">https://7rph.github.io/blog/%E6%9D%82/About_me/</guid>
             <title>About_me</title>
-            <link>https://therightpath.gitee.io/%E6%9D%82/About_me/</link>
+            <link>https://7rph.github.io/blog/%E6%9D%82/About_me/</link>
             <category>杂</category>
             <pubDate>Sun, 15 Nov 2020 18:26:17 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to my blog!&lt;/p&gt;
