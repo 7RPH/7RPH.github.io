@@ -9,18 +9,18 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-redefine.png">
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/2023/03/03/blog/"/>
+    <link rel="canonical" href="http://example.com/2023/03/13/研究现状/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="博客搭建小记">
+    <meta property="og:title" content="研究现状">
     <meta property="og:description" content="Hexo Theme Redefine">
-    <meta property="og:url" content="http://example.com2023/03/03/blog/">
+    <meta property="og:url" content="http://example.com2023/03/13/研究现状/">
     <meta property="og:image" content="/images/redefine-logo.svg">
     <meta property="og:site_name" content="The Right Path">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="博客搭建小记">
+    <meta name="twitter:title" content="研究现状">
     <meta name="twitter:description" content="Hexo Theme Redefine">
     <meta name="twitter:image" content="/images/redefine-logo.svg">
     <!--- Icon Part-->
@@ -31,7 +31,7 @@
     
     <title>
         
-            博客搭建小记 -
+            研究现状 -
         
         The Right Path
     </title>
@@ -185,7 +185,7 @@
             
             
                 <div class="article-title">
-                    <h1 class="article-title-regular">博客搭建小记</h1>
+                    <h1 class="article-title-regular">研究现状</h1>
                 </div>
             
                 
@@ -207,30 +207,19 @@
                             <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="pc">2023-03-03 21:12:12</span>
-        <span class="mobile">2023-03-03 21:12</span>
+        <span class="pc">2023-03-13 00:26:22</span>
+        <span class="mobile">2023-03-13 00:26</span>
         <span class="hover-info">Created</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2023-03-07 14:28:41</span>
-            <span class="mobile">2023-03-07 14:28</span>
+            <span class="pc">2023-03-13 00:27:31</span>
+            <span class="mobile">2023-03-13 00:27</span>
             <span class="hover-info">Updated</span>
         </span>
     
 
-    
-        <span class="article-categories article-meta-item">
-            <i class="fa-regular fa-folders"></i>&nbsp;
-            <ul>
-                
-                    <li>
-                        <a href="/categories/%E6%9D%82%E8%AE%B0/">杂记</a>&nbsp;
-                    </li>
-                
-            </ul>
-        </span>
     
     
         <span class="article-tags article-meta-item">
@@ -238,7 +227,7 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/%E6%9D%82%E8%AE%B0/">杂记</a>&nbsp;
+                        <a href="/tags/AI/">AI</a>&nbsp;
                     </li>
                 
             </ul>
@@ -261,34 +250,61 @@
             
 
             <div class="article-content markdown-body">
-                <p>由于笔者对香港轻量级服务器的态度从[每月花24rmb喝杯奶茶不如租台服务器]变成了[租台服务器不如喝杯奶茶]，就准备把hk的服务器关停(当然其实有其他不可抗力在里面)，这样一来之前在hk服务器上搭的博客也就得进行迁移了，考虑再三，由于笔者实在是不想走大陆服务器认证的繁冗流程，也没有钞能力去维护服务器的开销，只好再次回头捡起闲置许久的hexo配合github page搭一个轻量级的博客了。由于我与hexo也算是阔别已久，加之常用pc换成了mac，之前的环境全都没了，既然要重新搭建，那就记录一下过程做为第一篇文章好了。</p>
-<h2 id="本地环境部署"><a href="#本地环境部署" class="headerlink" title="本地环境部署"></a>本地环境部署</h2><p>由于mac环境之前已经装好了nodejs跟npm，不再赘述，这里从hexo开始说起</p>
-<h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h3><p>为了方便的使用hexo，首先需要安装他的CLI(command-line interface)，由于前面已经装好了npm，直接下载</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div>
-
-<p>基本环境搭建好后，我们就用hexo新建一个文件夹来做为博客的根目录</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure></div>
-
-<p>该命令执行完毕后会新建一个名为blog的文件夹并在其中部署诸多环境，tree命令结果大概如下</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.landscape.yml</span><br><span class="line">├── _config.yml</span><br><span class="line">├── node_modules</span><br><span class="line">│   ├── @tootallnate</span><br><span class="line">│   ├── ..</span><br><span class="line">│   └── ..</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">│   ├── draft.md</span><br><span class="line">│   ├── page.md</span><br><span class="line">│   └── post.md</span><br><span class="line">├── source</span><br><span class="line">│   └── _posts</span><br><span class="line">│       └── hello-world.md</span><br><span class="line">├── themes</span><br><span class="line">└── yarn.lock</span><br></pre></td></tr></table></figure></div>
-
-<p>这样环境初始化完成，可以顺便展示一下hexo的命令</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">Usage: hexo &lt;command&gt;</span><br><span class="line"></span><br><span class="line">Commands:</span><br><span class="line">  clean     Remove generated files and cache.</span><br><span class="line">  config    Get or set configurations.</span><br><span class="line">  deploy    Deploy your website.</span><br><span class="line">  generate  Generate static files.</span><br><span class="line">  help      Get help on a command.</span><br><span class="line">  init      Create a new Hexo folder.</span><br><span class="line">  list      List the information of the site</span><br><span class="line">  migrate   Migrate your site from other system to Hexo.</span><br><span class="line">  new       Create a new post.</span><br><span class="line">  publish   Moves a draft post from _drafts to _posts folder.</span><br><span class="line">  render    Render files with renderer plugins.</span><br><span class="line">  server    Start the server.</span><br><span class="line">  version   Display version information.</span><br><span class="line"></span><br><span class="line">Global Options:</span><br><span class="line">  --config  Specify config file instead of using _config.yml</span><br><span class="line">  --cwd     Specify the CWD</span><br><span class="line">  --debug   Display all verbose messages in the terminal</span><br><span class="line">  --draft   Display draft posts</span><br><span class="line">  --safe    Disable all plugins and scripts</span><br><span class="line">  --silent  Hide output on console</span><br></pre></td></tr></table></figure></div>
-
-<p>值得注意的是，hexo的命令允许缩写，即<code>hexo generate</code>和<code>hexo g</code>是一个东西，都生成了静态文件，也就是我们最终的博客站点的文件</p>
-<p>这里不妨<code>hexo g</code>看看生成结果</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">(base) rightpath@trph Documents/blog » hexo g</span><br><span class="line">INFO  Validating config</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Files loaded <span class="keyword">in</span> 52 ms</span><br><span class="line">INFO  Generated: archives/index.html</span><br><span class="line">INFO  Generated: archives/2023/index.html</span><br><span class="line">INFO  Generated: index.html</span><br><span class="line">INFO  Generated: archives/2023/03/index.html</span><br><span class="line">INFO  Generated: js/script.js</span><br><span class="line">INFO  Generated: css/style.css</span><br><span class="line">INFO  Generated: fancybox/jquery.fancybox.min.css</span><br><span class="line">INFO  Generated: css/fonts/fontawesome-webfont.woff</span><br><span class="line">INFO  Generated: fancybox/jquery.fancybox.min.js</span><br><span class="line">INFO  Generated: css/fonts/fontawesome-webfont.woff2</span><br><span class="line">INFO  Generated: js/jquery-3.4.1.min.js</span><br><span class="line">INFO  Generated: css/fonts/FontAwesome.otf</span><br><span class="line">INFO  Generated: css/images/banner.jpg</span><br><span class="line">INFO  Generated: css/fonts/fontawesome-webfont.eot</span><br><span class="line">INFO  Generated: css/fonts/fontawesome-webfont.ttf</span><br><span class="line">INFO  Generated: 2023/03/02/hello-world/index.html</span><br><span class="line">INFO  Generated: css/fonts/fontawesome-webfont.svg</span><br><span class="line">INFO  17 files generated <span class="keyword">in</span> 107 ms</span><br></pre></td></tr></table></figure></div>
-
-<p>这里生成了一堆静态网页的资源文件，如果是第一次执行<code>hexo g</code>，那么还会先新建一个叫做public的文件夹，这些生成的文件都会放在public文件夹下，熟悉web的可能都知道，我们有了静态文件，那么我们直接起一个server就可以访问网页了，根据hexo提供的方法，我们执行<code>hexo s</code>开启服务器，会返回如下结果</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">INFO  Validating config</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure></div>
-
-<p>这个命令是把public内的文件作为网站根目录并启动服务器，访问<a class="link"   target="_blank" rel="noopener" href="http://localhost:4000/%E5%8D%B3%E5%8F%AF%E7%9C%8B%E5%88%B0%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%9A%E5%AE%A2" >http://localhost:4000/即可看到我们的博客 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="皮肤"><a href="#皮肤" class="headerlink" title="皮肤"></a>皮肤</h3><p>初始的博客并不是很符合我们的审美，得想个办法换一下，这里我选的是redefine主题，文档在此处<a class="link"   target="_blank" rel="noopener" href="https://redefine-docs.ohevan.com/" >https://redefine-docs.ohevan.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>设置就根据喜好跟着文档随便改了改，本来就是为了方便，比较方便的设置配置文件的方法是去node_modules-&gt;hexo-theme-redefine下找到<code>_config.yml</code>配置文件把他粘贴到blog目录的<code>_config.redefine.yml</code>文件中然后对应修改</p>
-<p>但是总不能一直用localhost孤芳自赏吧，所以我们要把hexo生成的静态文件上传到公网上，这就要用到github page了</p>
-<h2 id="github-page"><a href="#github-page" class="headerlink" title="github page"></a>github page</h2><p>github page的原理简单理解就是会把你放在repo里的html，css，js等文件，放在服务器上运行，所以在这里我们就需要把<code>public</code>路径下的文件上传到github做为一个repo，而笔者作为github的苦手，这里就用github desktop偷懒了</p>
-<h4 id="域名绑定"><a href="#域名绑定" class="headerlink" title="域名绑定"></a>域名绑定</h4><p>想用个性点的域名而不是枯燥的github.io，使用github提供的custom domain功能把自己购买的域名绑定过去，具体流程可以看<a class="link"   target="_blank" rel="noopener" href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site" >https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="github图床"><a href="#github图床" class="headerlink" title="github图床"></a>github图床</h3><p>为了便于存放博客的图片，后续准备考虑使用github图床了，未完待续</p>
+                <h1 id="论文列表"><a href="#论文列表" class="headerlink" title="论文列表"></a>论文列表</h1><ul>
+<li>Moore A W, Zuev D. Internet traffic classification using bayesian analysis techniques[C]&#x2F;&#x2F;Proceedings of the 2005 ACM SIGMETRICS international conference on Measurement and modeling of computer systems. 2005: 50-60.</li>
+</ul>
+<blockquote>
+<p>Moore和Zuev在2005年的论文中提出了一种基于贝叶斯分析技术进行互联网流量分类的方法。这种方法使用统计模型描述不同应用程序和协议的流量特征，并利用贝叶斯方法进行推理和分类。在论文中，作者使用真实的流量数据对这种方法进行了评估，并将其与其他流量分类方法进行了比较。评估结果表明，该方法的分类准确性比传统方法更高，并且特别适用于加密协议的流量分类。该方法在实际应用中具有潜在的优势，并可以为网络管理、安全和服务质量等应用提供有力的支持。</p>
+</blockquote>
+<ul>
+<li>Draper-Gil G, Lashkari A., Mamun M., et al. Characterization of Encrypted and VPN Traffic using Time-related Features[C].Proceedings of the 2nd International Conference on Information Systems Security and Privacy, 2016: 407-414.</li>
+</ul>
+<blockquote>
+<p>Draper-Gil提出了一种基于时间序列分析的方法来区分加密和VPN流量。具体来说，他们通过分析数据包的大小和到达时间间隔的时间序列，提取了与时间相关的特征，并将这些特征作为分类器的输入。作者使用了多种分类器来评估他们的方法，包括C4.5，KNN等。结果表明，该方法在区分加密和VPN流量方面取得了很好的效果。</p>
+</blockquote>
+<ul>
+<li>LIU Y, CHEN J, CHANG P, et al. A novel algorithm for encrypted traffic classification  based on sliding window of flow’s first N packets[C]&#x2F;&#x2F;2017 2nd IEEE International Conference  on Computational Intelligence and Applications (ICCIA). IEEE, 2017: 463–470.</li>
+</ul>
+<blockquote>
+<p>Liu等人提出了一种基于滑动窗口的方法，只考虑每个流量分类算法的前N个数据包，有效地提高了加密流量分类的精度和召回率。实验结果表明，所提出的算法对包括SSH和P2P流量在内的加密流量分类的平均准确率可以达到96%，相较于其他算法，平均准确率可以提高3%。</p>
+</blockquote>
+<ul>
+<li>YUAN X, LI C, LI X. DeepDefense: identifying DDoS attack via deep learning[C]&#x2F;&#x2F;2017  IEEE International Conference on Smart Computing (SMARTCOMP). IEEE, 2017: 1–8.</li>
+</ul>
+<blockquote>
+<p>YUAN等设计了一个叫做DeepDefense的深度学习DDoS攻击检测方法，该方法使用了卷积神经网络（CNN），RNN（长短时记忆网络（LSTM），GRU（门控循环单元））和全连接层组成，作者使用了ISCX2012进行了实验评估，与传统的机器学习方法相比。循环神经网络可以学习更长的历史特征，能够有效减少误报率，泛化效果上也比随机森林有着更好的表现。</p>
+</blockquote>
+<ul>
+<li>程光,陈玉祥.基于支持向量机的加密流量识别方法[J].东南大学学报(自然科学版),2017,47(04):655-659.</li>
+</ul>
+<blockquote>
+<p>程光等采用了蒙特卡洛仿真方法估计π值的误差和相对熵作为流量分类测度，利用支持向量机算法对加密流量和非加密的压缩文件流量进行分类。作者在真实的数据集上进行了验证，结果表明，该方法不仅能够很好地识别加密流量，还能区分加密流量和非加密的压缩文件流量</p>
+</blockquote>
+<ul>
+<li>CUI S, JIANG B, CAI Z, et al. A Session-Packets-Based Encrypted Traffic Classification Using Capsule Neural Networks[C]&#x2F;&#x2F;2019 IEEE 21st International Conference on High Performance Computing and Communications; IEEE 17th International Conference on Smart City; IEEE 5th International Conference on Data Science and Systems (HPCC&#x2F;SmartCity&#x2F;DSS). IEEE, 2019: 429–436.</li>
+</ul>
+<blockquote>
+<p>这篇论文描述了一种使用胶囊神经网络（CapsNets）基于会话数据包进行加密流量分类的方法，CapsNet可以学习输入数据中的复杂空间关系。该模型在带有对应流量类型标签的会话数据包数据集上进行训练。作者还使用数据增强技术来增加训练集的大小并提高模型的泛化能力。作者在ISCX VPN-nonVPN数据集上对该模型进行了验证，与传统方法相比，所提出的方法在加密流量分类方面具有高精度。该方法还能够适应会话数据包数量和数据包大小的变化。</p>
+</blockquote>
+<ul>
+<li>曾勇,吴正远,董丽华,刘志宏,马建峰,李赞.加密流量中的恶意流量识别技术[J].西安电子科技大学学报,2021,48(03):170-187.DOI:10.19665&#x2F;j.issn1001-2400.2021.03.022.</li>
+</ul>
+<blockquote>
+<p>曾勇等对数据包的具体特征和现有模型进行了分析，发现如果是对流量的头部特征进行分析，那么就可以在恶意行为发生之前进行检测，如果是对负载特征进行分析，那么就可以实现端到端的流量识别，满足实际运用的精度。同时也指出，基于机器学习的恶意流量识别缺乏足够的样本对每一种攻击进行细分类。</p>
+</blockquote>
+<ul>
+<li>李艳. 网络加密流量识别和源追踪技术的研究与实现[D].南京理工大学,2021.DOI:10.27241&#x2F;d.cnki.gnjgu.2021.001648.</li>
+</ul>
+<blockquote>
+<p>李艳等提出了一种LSTM-BA的攻击检测模型，该模型对预处理后的原始网络流量使用LSTM来判断是否是DDoS攻击，而对预测结果较差的数据，再采用Bayes模块进一步判断，最后综合两个模块的输出结果对流量进行评估。作者使用ISCX2012对模型进行训练和验证，结果表明，LSTM-BA的准确率达到了98.15%，并且具有很好的泛化性。</p>
+</blockquote>
+<p>Lin X, Xiong G, Gou G, et al. Et-bert: A contextualized datagram representation with pre-training transformers for encrypted traffic classification[C]&#x2F;&#x2F;Proceedings of the ACM Web Conference 2022. 2022: 633-642.</p>
+<blockquote>
+<p>传统机器学习方法通常只考虑了加密流量的部分特征，难以对多种加密技术进行区分，分类效果受到限制。Lin等使用Et-bert利用上下文数据报表示和预训练变换器模型，能够更好地捕捉加密流量的整体特征，具有更好的分类效果。同时他也可以通过预训练变换器模型和上下文数据报表示来减少对训练数据的依赖，同时具有更高的分类精度。</p>
+</blockquote>
+<h1 id="研究内容分析"><a href="#研究内容分析" class="headerlink" title="研究内容分析"></a>研究内容分析</h1><h2 id="数据方面"><a href="#数据方面" class="headerlink" title="数据方面"></a>数据方面</h2><p>虽然流量的pcap中的大体结构是RFC规定好的，比如IP、TCP、HTTP等，但是具体的数据内容我们往往要去应用层寻找，同时由于加密算法的多样性，每种加密工具制作者的个人习惯等，数据并不包括明确的语义结构，所以往往采用的是手工标记特征的数据来进行训练，这就依赖于我们所公认的数据集，包括ISCX VPN-nonVPN，ISCX2012，CTU13等等，但是科技再不断发展，新的加密方式，新的传输方式等等，模型是否还能应对新的挑战，这十分考验模型的泛化性。</p>
+<p>另一方面，由于特征是人为选择的，曾勇等在加密流量中的恶意流量识别技术中指出，对数据包的特征进行不同的取舍各有优劣，这就依赖于专家的判断。</p>
+<h2 id="模型方面"><a href="#模型方面" class="headerlink" title="模型方面"></a>模型方面</h2><p>最早，Moore等采用贝叶斯对加密流量进行简单分类，随后Draper-Gil等针对流量包的时间属性分别采用了C4.5、KNN等，也取得了不俗的效果，LIU等也采用了C4.5进行分类，但是不同的是他们提出了一种基于滑动窗口的算法，只考虑每个流量分类算法的前N个数据包，有效地提高了加密流量分类的精度和召回率。在这些机器学习的基础上，YUAN等使用CNN，RNN等深度学习方法，可以应对流量包中更长的时间特征，同时具有更好的泛化性。为了提高加密流量和压缩文件流量的区分度来减少误差，程光等提出了基于信息熵和SVM的方法来有效识别。与对时间特征的处理类似，为了应对流量包空间特征维度高，训练慢的问题，CUI等提出了一种胶囊神经网络，这种模型在加密流量分类方面具有更高的精度，还能够适应会话数据包数量和数据包大小的变化。</p>
 
             </div>
 
@@ -296,11 +312,11 @@
                 <div class="post-copyright-info">
                     <div class="article-copyright-info-container">
     <ul>
-        <li>Post title：博客搭建小记</li>
+        <li>Post title：研究现状</li>
         <li>Post author：trph</li>
-        <li>Create time：2023-03-03 21:12:12</li>
+        <li>Create time：2023-03-13 00:26:22</li>
         <li>
-            Post link：https://blog.rightpath.top/2023/03/03/blog/
+            Post link：https://blog.rightpath.top/2023/03/13/研究现状/
         </li>
         <li>
             Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
@@ -315,7 +331,7 @@
                 <ul class="post-tags-box">
                     
                         <li class="tag-item">
-                            <a href="/tags/%E6%9D%82%E8%AE%B0/">#杂记</a>&nbsp;
+                            <a href="/tags/AI/">#AI</a>&nbsp;
                         </li>
                     
                 </ul>
@@ -326,21 +342,21 @@
             
                 <div class="article-nav">
                     
-                        <div class="article-prev">
-                            <a class="prev"
-                            rel="prev"
-                            href="/2023/03/13/%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6/"
+                    
+                        <div class="article-next">
+                            <a class="next"
+                            rel="next"
+                            href="/2023/03/03/blog/"
                             >
-                                <span class="left arrow-icon flex-center">
-                                    <i class="fa-solid fa-chevron-left"></i>
-                                </span>
                                 <span class="title flex-center">
-                                    <span class="post-nav-title-item">研究现状</span>
-                                    <span class="post-nav-item">Prev posts</span>
+                                    <span class="post-nav-title-item">博客搭建小记</span>
+                                    <span class="post-nav-item">Next posts</span>
+                                </span>
+                                <span class="right arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-right"></i>
                                 </span>
                             </a>
                         </div>
-                    
                     
                 </div>
             
@@ -354,8 +370,8 @@
                 <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">On this page</div>
-        <div class="page-title">博客搭建小记</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2"><span class="nav-text">本地环境部署</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo"><span class="nav-text">hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9A%AE%E8%82%A4"><span class="nav-text">皮肤</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#github-page"><span class="nav-text">github page</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A"><span class="nav-text">域名绑定</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#github%E5%9B%BE%E5%BA%8A"><span class="nav-text">github图床</span></a></li></ol></li></ol>
+        <div class="page-title">研究现状</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%BA%E6%96%87%E5%88%97%E8%A1%A8"><span class="nav-text">论文列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A0%94%E7%A9%B6%E5%86%85%E5%AE%B9%E5%88%86%E6%9E%90"><span class="nav-text">研究内容分析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E6%96%B9%E9%9D%A2"><span class="nav-text">数据方面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B%E6%96%B9%E9%9D%A2"><span class="nav-text">模型方面</span></a></li></ol></li></ol>
 
     </div>
 </div>
