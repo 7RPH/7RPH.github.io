@@ -214,8 +214,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2023-03-20 22:49:04</span>
-            <span class="mobile">2023-03-20 22:49</span>
+            <span class="pc">2023-03-20 23:05:02</span>
+            <span class="mobile">2023-03-20 23:05</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -283,45 +283,45 @@
 </thead>
 <tbody><tr>
 <td>Token Embeddings</td>
-<td>E<del>[CLS]</del></td>
-<td>E<del>my</del></td>
-<td>E<del>dog</del></td>
-<td>E<del>is</del></td>
-<td>E<del>cute</del></td>
-<td>E<del>[SEP]</del></td>
-<td>E<del>he</del></td>
-<td>E<del>likes</del></td>
-<td>E<del>play</del></td>
-<td>E<del>##ing</del></td>
-<td>E<del>[SEP]</del></td>
+<td>E<sub>[CLS]</sub></td>
+<td>E<sub>my</sub></td>
+<td>E<sub>dog</sub></td>
+<td>E<sub>is</sub></td>
+<td>E<sub>cute</sub></td>
+<td>E<sub>[SEP]</sub></td>
+<td>E<sub>he</sub></td>
+<td>E<sub>likes</sub></td>
+<td>E<sub>play</sub></td>
+<td>E<sub>##ing</sub></td>
+<td>E<sub>[SEP]</sub></td>
 </tr>
 <tr>
 <td>Segment Embeddings</td>
-<td>E<del>A</del></td>
-<td>E<del>A</del></td>
-<td>E<del>A</del></td>
-<td>E<del>A</del></td>
-<td>E<del>A</del></td>
-<td>E<del>A</del></td>
-<td>E<del>B</del></td>
-<td>E<del>B</del></td>
-<td>E<del>B</del></td>
-<td>E<del>B</del></td>
-<td>E<del>B</del></td>
+<td>E<sub>A</sub></td>
+<td>E<sub>A</sub></td>
+<td>E<sub>A</sub></td>
+<td>E<sub>A</sub></td>
+<td>E<sub>A</sub></td>
+<td>E<sub>A</sub></td>
+<td>E<sub>B</sub></td>
+<td>E<sub>B</sub></td>
+<td>E<sub>B</sub></td>
+<td>E<sub>B</sub></td>
+<td>E<sub>B</sub></td>
 </tr>
 <tr>
 <td>Position Embeddings</td>
-<td>E<del>0</del></td>
-<td>E<del>1</del></td>
-<td>E<del>2</del></td>
-<td>E<del>3</del></td>
-<td>E<del>4</del></td>
-<td>E<del>5</del></td>
-<td>E<del>6</del></td>
-<td>E<del>7</del></td>
-<td>E<del>8</del></td>
-<td>E<del>9</del></td>
-<td>E<del>10</del></td>
+<td>E<sub>0</sub></td>
+<td>E<sub>1</sub></td>
+<td>E<sub>2</sub></td>
+<td>E<sub>3</sub></td>
+<td>E<sub>4</sub></td>
+<td>E<sub>5</sub></td>
+<td>E<sub>6</sub></td>
+<td>E<sub>7</sub></td>
+<td>E<sub>8</sub></td>
+<td>E<sub>9</sub></td>
+<td>E<sub>10</sub></td>
 </tr>
 </tbody></table>
 <p>与BERT类似，ET-BERT也有<code>Token Embedding、Segment Embedding和Position Embedding</code>，先通过Datagram2Token转成Token后，对hex字符串对半切分，这是因为BERT模型接收的输入是一个sequence序列，通常一个序列接受的是两句话，放在ET-BERT处，就是把一个BURST对半切成两份然后使用[SEP]分开。</p>
