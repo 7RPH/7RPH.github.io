@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    <meta name="description" content="Hexo Theme Redefine">
+    <meta name="author" content="trph">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-redefine.png">
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://example.com/2023/03/20/et-bert学习/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="ET-BERT学习">
+    <meta property="og:description" content="Hexo Theme Redefine">
+    <meta property="og:url" content="http://example.com2023/03/20/ET-BERT学习/">
+    <meta property="og:image" content="/images/redefine-logo.svg">
+    <meta property="og:site_name" content="The Right Path">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ET-BERT学习">
+    <meta name="twitter:description" content="Hexo Theme Redefine">
+    <meta name="twitter:image" content="/images/redefine-logo.svg">
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-logo.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-logo.svg">
+    <meta name="theme-color" content="#005080">
+    <link rel="shortcut icon" href="/images/redefine-logo.svg">
+    
+    <title>
+        
+            ET-BERT学习 -
+        
+        The Right Path
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<link rel="stylesheet" href="/assets/fonts.css">
+
+    
+    
+    
+    
+    <script id="hexo-configurations">
+    let REDEFINE = window.REDEFINE || {};
+    REDEFINE.hexo_config = {"hostname":"example.com","root":"/","language":"en"};
+    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"https://avatars.githubusercontent.com/u/67402879","favicon":"/images/redefine-logo.svg","article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://evan.beee.top/img/wallhaven-wqery6-light.webp","dark":"https://evan.beee.top/img/wallhaven-wqery6-dark.webp"},"title_color":{"light":"#fff","dark":"#d1d1b6"},"description":"On my way...","custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.1.6","friend_links":{"columns":2},"home_article":{"date_format":"auto","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]}}};
+    REDEFINE.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
+    
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="menu-wrapper">
+    
+    <div class="menu-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://avatars.githubusercontent.com/u/67402879">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                The Right Path
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        
+                            <li class="menu-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        HOME
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="menu-drawer">
+        <ul class="drawer-menu-list">
+            
+                
+                    <li class="drawer-menu-item flex-center">
+                        <a class="" 
+                        href="/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                HOME
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            
+            
+                <div class="article-title">
+                    <h1 class="article-title-regular">ET-BERT学习</h1>
+                </div>
+            
+                
+            
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="https://avatars.githubusercontent.com/u/67402879">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">trph</span>
+                            
+                                <span class="author-label">lol</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="pc">2023-03-20 22:44:12</span>
+        <span class="mobile">2023-03-20 22:44</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="pc">2023-03-20 22:49:04</span>
+            <span class="mobile">2023-03-20 22:49</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/AI/">AI</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content markdown-body">
+                <h1 id="BERT-amp-ET-BERT-paper"><a href="#BERT-amp-ET-BERT-paper" class="headerlink" title="BERT&amp;ET-BERT paper"></a>BERT&amp;ET-BERT paper</h1><p>由于ET-BERT是基于BERT的，所以我去看了下这两篇论文</p>
+<h2 id="Vocab"><a href="#Vocab" class="headerlink" title="Vocab"></a>Vocab</h2><p>BERT是NLP领域的，在NLP中，模型训练之前一个很重要的步骤就是<strong>「构建词表」</strong>。就英语而言，如果把所有单词的集合做为词表，那么训练速度就会变得很慢；如果把每个字符作为词表，这可以缓解单词数量过大的问题，但是由于粒度太细，会丢失语义信息。故而，基于Subword（子词）的算法被提出，<strong>「Subword算法的分词粒度处于单词级别和字符级别之间」</strong>，包括常见的BPE(Byte-Pair Encoding)，WordPiece等。具体来说，如果一个英文单词，他的整体出现概率不大的话，那么我们就把他切开，看他的子序列，比如looking和looked，我们可能就会切开成为look，ing，ed。这样就可以用一个相对较小的一个词典来表示一个巨大的文本了。接着，由于BERT只要一个编码器来接受输入，每次的输入是一个序列，那么为了区分序列，作者还引入了特殊的标记[CLS]，[SEP]等用来方便区分每个输入序列的句子。</p>
+<p>而与BERT对应，作者把单个会话流中从请求或响应源发出的一组时间相邻的网络数据包，做为一个BURST，形象的描述可以是src短时间内发出了一系列包，就好比alice说了一段话，dst短时间内接收并又回复了若干数据包，可以看做bob回复了一段话。</p>
+<p>进一步，为了将BURST表示转换为预训练的token表示，考虑到所有的数据都可以用hex表示，作者采用了bi-gram方法，每次取相邻的2字节数据，采用BPE<code>(存疑，代码中使用的是WordPiece，但是论文中说使用了BPE)</code>来进行token表示，这一步在论文中叫做Datagram2Token。使用作者提供repo中的代码，运行结果如下</p>
+<div class="highlight-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;model&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;WordPiece&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;unk_token&quot;</span><span class="punctuation">:</span> <span class="string">&quot;[UNK]&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;continuing_subword_prefix&quot;</span><span class="punctuation">:</span> <span class="string">&quot;##&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;max_input_chars_per_word&quot;</span><span class="punctuation">:</span> <span class="number">4</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;vocab&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;0&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;1&quot;</span><span class="punctuation">:</span> <span class="number">1</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;2&quot;</span><span class="punctuation">:</span> <span class="number">2</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;3&quot;</span><span class="punctuation">:</span> <span class="number">3</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;4&quot;</span><span class="punctuation">:</span> <span class="number">4</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;5&quot;</span><span class="punctuation">:</span> <span class="number">5</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;6&quot;</span><span class="punctuation">:</span> <span class="number">6</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;7&quot;</span><span class="punctuation">:</span> <span class="number">7</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;8&quot;</span><span class="punctuation">:</span> <span class="number">8</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;9&quot;</span><span class="punctuation">:</span> <span class="number">9</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;a&quot;</span><span class="punctuation">:</span> <span class="number">10</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;b&quot;</span><span class="punctuation">:</span> <span class="number">11</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;c&quot;</span><span class="punctuation">:</span> <span class="number">12</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;d&quot;</span><span class="punctuation">:</span> <span class="number">13</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;e&quot;</span><span class="punctuation">:</span> <span class="number">14</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;f&quot;</span><span class="punctuation">:</span> <span class="number">15</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##f&quot;</span><span class="punctuation">:</span> <span class="number">16</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##e&quot;</span><span class="punctuation">:</span> <span class="number">17</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##5&quot;</span><span class="punctuation">:</span> <span class="number">18</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##2&quot;</span><span class="punctuation">:</span> <span class="number">19</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##a&quot;</span><span class="punctuation">:</span> <span class="number">20</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##b&quot;</span><span class="punctuation">:</span> <span class="number">21</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##1&quot;</span><span class="punctuation">:</span> <span class="number">22</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##4&quot;</span><span class="punctuation">:</span> <span class="number">23</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##c&quot;</span><span class="punctuation">:</span> <span class="number">24</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##9&quot;</span><span class="punctuation">:</span> <span class="number">25</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##3&quot;</span><span class="punctuation">:</span> <span class="number">26</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##0&quot;</span><span class="punctuation">:</span> <span class="number">27</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##6&quot;</span><span class="punctuation">:</span> <span class="number">28</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##8&quot;</span><span class="punctuation">:</span> <span class="number">29</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##7&quot;</span><span class="punctuation">:</span> <span class="number">30</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##d&quot;</span><span class="punctuation">:</span> <span class="number">31</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##00&quot;</span><span class="punctuation">:</span> <span class="number">32</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;00&quot;</span><span class="punctuation">:</span> <span class="number">33</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;000&quot;</span><span class="punctuation">:</span> <span class="number">34</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;0000&quot;</span><span class="punctuation">:</span> <span class="number">35</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##ca&quot;</span><span class="punctuation">:</span> <span class="number">36</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##08&quot;</span><span class="punctuation">:</span> <span class="number">37</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;08&quot;</span><span class="punctuation">:</span> <span class="number">38</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##83&quot;</span><span class="punctuation">:</span> <span class="number">39</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;004&quot;</span><span class="punctuation">:</span> <span class="number">40</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;83&quot;</span><span class="punctuation">:</span> <span class="number">41</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;f0&quot;</span><span class="punctuation">:</span> <span class="number">42</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;83ca&quot;</span><span class="punctuation">:</span> <span class="number">43</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##11&quot;</span><span class="punctuation">:</span> <span class="number">44</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;0800&quot;</span><span class="punctuation">:</span> <span class="number">45</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##f0&quot;</span><span class="punctuation">:</span> <span class="number">46</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;45&quot;</span><span class="punctuation">:</span> <span class="number">47</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##c6&quot;</span><span class="punctuation">:</span> <span class="number">48</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##90&quot;</span><span class="punctuation">:</span> <span class="number">49</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;ca&quot;</span><span class="punctuation">:</span> <span class="number">50</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##96&quot;</span><span class="punctuation">:</span> <span class="number">51</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;4500&quot;</span><span class="punctuation">:</span> <span class="number">52</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;caf0&quot;</span><span class="punctuation">:</span> <span class="number">53</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;##50&quot;</span><span class="punctuation">:</span> <span class="number">54</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;11&quot;</span><span class="punctuation">:</span> <span class="number">55</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;0045&quot;</span><span class="punctuation">:</span> <span class="number">56</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;90&quot;</span><span class="punctuation">:</span> <span class="number">57</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;96&quot;</span><span class="punctuation">:</span> <span class="number">58</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;6f&quot;</span><span class="punctuation">:</span> <span class="number">59</span><span class="punctuation">,</span></span><br><span class="line">      ......</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>除了使用BPE获取的token，作者还另添加了特殊标记[CLS]，[SEP]，[PAD]和[MASK]。每个序列的第一个标记始终为[CLS]，[SEP]用于表示分类任务的完整序列。标记[PAD]是填充符号，用于满足最小长度要求。一个BURST的子BURST对将由[SEP]分隔。标记[MASK]在预训练期间出现，用于学习流量上下文。</p>
+</blockquote>
+<h2 id="Embedding"><a href="#Embedding" class="headerlink" title="Embedding"></a>Embedding</h2><p>进一步，为了便于训练，BERT会把文本转化成固定长度的向量表示，这些向量被称为嵌入(Embedding)。具体来说，BERT有三种embedding，<code>Token Embedding，Segment Embedding和Position Embedding</code>。</p>
+<p><code>Token Embedding</code>就是我们构造的词表加上[CLS]等特殊标记，通常是768维或1024维，分别对应BERT-BASE和BERT-LARGE。对于每个单词，BERT会将其编码为一个向量，这个向量捕捉了单词的语义和上下文信息。</p>
+<p><code>Segment Embedding</code>是用来区分这个单词在输入序列中位于第几句话中，BERT模型会将输入文本中的每个句子分别编码为一个向量，并为每个单词分配一个与其所属句子相对应的Segment嵌入。</p>
+<p><code>Position Embedding</code>用来定位单词在输入序列中的位置信息。</p>
+<p>通过将<code>Token Embedding、Segment Embedding和Position Embedding</code>结合在一起，BERT模型可以为输入序列中的每个单词生成一个独特的向量表示，这个向量表示包含了单词的语义、上下文和位置信息。这种综合表示能够有效地提升自然语言处理任务的性能。</p>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>[CLS]</th>
+<th>my</th>
+<th>dog</th>
+<th>is</th>
+<th>cute</th>
+<th>[SEP]</th>
+<th>he</th>
+<th>likes</th>
+<th>play</th>
+<th>##ing</th>
+<th>[SEP]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Token Embeddings</td>
+<td>E<del>[CLS]</del></td>
+<td>E<del>my</del></td>
+<td>E<del>dog</del></td>
+<td>E<del>is</del></td>
+<td>E<del>cute</del></td>
+<td>E<del>[SEP]</del></td>
+<td>E<del>he</del></td>
+<td>E<del>likes</del></td>
+<td>E<del>play</del></td>
+<td>E<del>##ing</del></td>
+<td>E<del>[SEP]</del></td>
+</tr>
+<tr>
+<td>Segment Embeddings</td>
+<td>E<del>A</del></td>
+<td>E<del>A</del></td>
+<td>E<del>A</del></td>
+<td>E<del>A</del></td>
+<td>E<del>A</del></td>
+<td>E<del>A</del></td>
+<td>E<del>B</del></td>
+<td>E<del>B</del></td>
+<td>E<del>B</del></td>
+<td>E<del>B</del></td>
+<td>E<del>B</del></td>
+</tr>
+<tr>
+<td>Position Embeddings</td>
+<td>E<del>0</del></td>
+<td>E<del>1</del></td>
+<td>E<del>2</del></td>
+<td>E<del>3</del></td>
+<td>E<del>4</del></td>
+<td>E<del>5</del></td>
+<td>E<del>6</del></td>
+<td>E<del>7</del></td>
+<td>E<del>8</del></td>
+<td>E<del>9</del></td>
+<td>E<del>10</del></td>
+</tr>
+</tbody></table>
+<p>与BERT类似，ET-BERT也有<code>Token Embedding、Segment Embedding和Position Embedding</code>，先通过Datagram2Token转成Token后，对hex字符串对半切分，这是因为BERT模型接收的输入是一个sequence序列，通常一个序列接受的是两句话，放在ET-BERT处，就是把一个BURST对半切成两份然后使用[SEP]分开。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pdf.cdn.readpaper.com/parsed/fetch_target/b7f1a5269c8ad307623195326067979f_3_Figure_2.png"
+                      alt="Figure_2"
+                ></p>
+<h2 id="Pre-Training"><a href="#Pre-Training" class="headerlink" title="Pre-Training"></a>Pre-Training</h2><p>接着是预训练部分，这里ET-BERT主要是针对两个问题，一个叫做同源BURST预测(Same-origin BURST Prediction)，另一个是基于掩码的BURST模型(Masked BURST Model)。其中，Masked BURST Model和BERT使用的Masked Model类似，只不过把输入从文本换成了流量，通过把一些Token随机替换成[MASK]特殊标记，来训练ET-BERT以基于上下文预测掩码位置的标记，可以理解为完形填空(cloze)。同源BURST预测就是用来理解两个BURST是否是同一个ip发出&#x2F;接受的，通俗而言就是两句话是否是同一个人说的。这其实也和BERT有点类似，因为BERT在预训练部分也主要解决了一个叫做NSP(Next Sentence Prodiction)的任务，预测句子A和句子B是否是相邻的。</p>
+<blockquote>
+<p><strong>Next Sentence Prediction</strong> The next sentenceprediction task can be illustrated in the followingexamples.<br><strong>Input</strong> &#x3D; [CLS] the man went to [MASK] store [SEP]he bought a gallon [MASK] milk [SEP]<br><strong>Label</strong> &#x3D; IsNext<br><strong>Input</strong> &#x3D; [CLS] the man [MASK] to the store [SEP]penguin [MASK] are flight ##less birds [SEP]<br><strong>Label</strong> &#x3D; NotNext</p>
+</blockquote>
+<p>作者通过训练模型对MASK和同源BURST的预测来提高模型预测流量上下文之间的能力。</p>
+<h2 id="Fine-Tuning"><a href="#Fine-Tuning" class="headerlink" title="Fine-Tuning"></a>Fine-Tuning</h2><p>BERT的输出有两种表示：</p>
+<ol>
+<li>Token-level output：对于输入序列中的每个token，BERT输出一个对应的向量表示，这个输出可以用来进行下游任务的Fine-tuning。可以使用BERT的最后一层输出（即Transformer Block输出）或者对所有Transformer Block的输出进行拼接而得到。</li>
+<li>Sequence-level output：BERT通过对输入序列的[CLS] token进行pooling的方式来得到整个序列的一个向量表示，这个向量用于下游任务中的分类等任务。这个[CLS] token的输出可以看作整个句子的语义表示，它的维度是Transformer Block最后一层的输出维度。</li>
+</ol>
+<p>和BERT一样，在处理下游任务的时候，ET-BERT也可以根据任务来设计相关的输入和输出。由于预训练模型的输入是在数据报字节级别，因此需要对数据包和流进行分类的下游任务可以被转换为相应的数据报字节令牌，由模型进行分类。这样一来就不需要去调整模型，只需要调整我们需要输入的那个BURST。</p>
+<blockquote>
+<p>（1）以数据报级别作为输入，专门用于实验ET-BERT能否适应更细粒度的流量数据，称为ET-BERT(packet)；类似Token-level output</p>
+<p>（2）以流级别作为输入，专门用于公平和客观地比较ET-BERT与其他方法，称为ET-BERT(flow)；类似Sequence-level output</p>
+<p>这两种微调模型之间的主要区别在于输入流量信息的数量。</p>
+</blockquote>
+<h1 id="ET-BERT-code"><a href="#ET-BERT-code" class="headerlink" title="ET-BERT code"></a>ET-BERT code</h1><p>首先，根据repo里面readme给出的，复现步骤大概如下</p>
+<h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><h4 id="预处理"><a href="#预处理" class="headerlink" title="预处理"></a>预处理</h4><p>要重现在网络流量数据上预训练 ET-BERT 所需的步骤，请执行以下步骤：</p>
+<ol>
+<li><p>运行<code>vocab_process/main.py</code>生成加密后的流量语料或者直接使用生成的语料在<code>corpora/</code>. 请注意，您需要更改文件路径和文件顶部的一些配置。</p>
+</li>
+<li><p>运行</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">main/preprocess.py</span><br></pre></td></tr></table></figure></div>
+
+<p>对加密流量突发语料库进行预处理。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">python3 preprocess.py --corpus_path corpora/encrypted_traffic_burst.txt \</span><br><span class="line">                      --vocab_path models/encryptd_vocab.txt \</span><br><span class="line">                      --dataset_path dataset.pt --processes_num 8 --target bert</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><code>data_process/main.py</code>如果有pcap格式的数据集需要处理，运行生成下游任务的数据。这个过程包括两个步骤。第一种是通过设置并另存为数据集来拆分<code>splitcap=True</code>pcap<code>datasets/main.py:54</code> 文件<code>npy</code>。然后第二个是生成微调数据。如果您使用共享数据集，则需要在<code>dataset_save_path</code>named下创建一个文件夹<code>dataset</code>并将数据集复制到此处。</p>
+</li>
+</ol>
+<h4 id="预训练"><a href="#预训练" class="headerlink" title="预训练"></a>预训练</h4><p>要重现在标记数据上微调 ET-BERT 所需的步骤，请运行<code>pretrain.py</code>以进行预训练。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">python3 pre-training/pretrain.py --dataset_path dataset.pt --vocab_path models/encryptd_vocab.txt \</span><br><span class="line">                    --output_model_path models/pre-trained_model.bin \</span><br><span class="line">                    --world_size 8 --gpu_ranks 0 1 2 3 4 5 6 7 \</span><br><span class="line">                    --total_steps 500000 --save_checkpoint_steps 10000 --batch_size 32 \</span><br><span class="line">                    --embedding word_pos_seg --encoder transformer --mask fully_visible --target bert</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="微调下游任务"><a href="#微调下游任务" class="headerlink" title="微调下游任务"></a>微调下游任务</h4><p>要查看如何使用 ET-BERT 执行加密流量分类任务的示例，请转到文件夹中的<a class="link"   target="_blank" rel="noopener" href="https://github.com/linwhitehat/ET-BERT#using-et-bert" >使用 ET-BERT <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<code>run_classifier.py</code>脚本<code>fine-tuning</code>。</p>
+<p>注意：您需要更改程序中的路径。</p>
+<h3 id="数据预处理"><a href="#数据预处理" class="headerlink" title="数据预处理"></a>数据预处理</h3><p>数据预处理的核心部分在<code>vocab_process/main.py</code>处，主要过程有两个:<code>build_BPE</code>和<code>build_vocab</code></p>
+<div class="highlight-container" data-rel="Py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">build_BPE</span>():</span><br><span class="line">    <span class="comment"># generate source dictionary,0-65535</span></span><br><span class="line">    num_count = <span class="number">65536</span></span><br><span class="line">    not_change_string_count = <span class="number">5</span></span><br><span class="line">    i = <span class="number">0</span></span><br><span class="line">    source_dictionary = &#123;&#125; </span><br><span class="line">    tuple_sep = ()</span><br><span class="line">    tuple_cls = ()</span><br><span class="line">    <span class="comment">#&#x27;PAD&#x27;:0,&#x27;UNK&#x27;:1,&#x27;CLS&#x27;:2,&#x27;SEP&#x27;:3,&#x27;MASK&#x27;:4</span></span><br><span class="line">    <span class="keyword">while</span> i &lt; num_count:</span><br><span class="line">        temp_string = <span class="string">&#x27;&#123;:04x&#125;&#x27;</span>.<span class="built_in">format</span>(i) </span><br><span class="line">        source_dictionary[temp_string] = i</span><br><span class="line">        i += <span class="number">1</span></span><br><span class="line">    <span class="comment"># Initialize a tokenizer</span></span><br><span class="line">    tokenizer = Tokenizer(models.WordPiece(vocab=source_dictionary,unk_token=<span class="string">&quot;[UNK]&quot;</span>,max_input_chars_per_word=<span class="number">4</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Customize pre-tokenization and decoding</span></span><br><span class="line">    tokenizer.pre_tokenizer = pre_tokenizers.BertPreTokenizer()</span><br><span class="line">    tokenizer.decoder = decoders.WordPiece()</span><br><span class="line">    tokenizer.post_processor = processors.BertProcessing(sep=(<span class="string">&quot;[SEP]&quot;</span>,<span class="number">1</span>),cls=(<span class="string">&#x27;[CLS]&#x27;</span>,<span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># And then train</span></span><br><span class="line">    trainer = trainers.WordPieceTrainer(vocab_size=<span class="number">65536</span>, min_frequency=<span class="number">2</span>)</span><br><span class="line">    tokenizer.train([word_dir+word_name, word_dir+word_name], trainer=trainer)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># And Save it</span></span><br><span class="line">    tokenizer.save(<span class="string">&quot;wordpiece.tokenizer.json&quot;</span>, pretty=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span></span><br></pre></td></tr></table></figure></div>
+
+<p>build_BPE先生成了从0000到ffff的字典，称为双字节编码(bi-gram)，同时，为了符合BERT的模型输入，增加了[CLS]，[SEP]，[PAD]，[MASK]，[UNK]标记，接着使用Tokenizer来分词，构建词表，<code>但是我觉得比较困惑的地方就是虽然函数名叫build_BPE然而实际采用的是WordPiece而非BPE</code></p>
+<p>接着是<code>build_vocab</code>函数，如下</p>
+<div class="highlight-container" data-rel="Py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">build_vocab</span>():</span><br><span class="line">    json_file = <span class="built_in">open</span>(<span class="string">&quot;wordpiece.tokenizer.json&quot;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line">    json_content = json_file.read()</span><br><span class="line">    json_file.close()</span><br><span class="line">    vocab_json = json.loads(json_content)</span><br><span class="line">    vocab_txt = [<span class="string">&quot;[PAD]&quot;</span>,<span class="string">&quot;[SEP]&quot;</span>,<span class="string">&quot;[CLS]&quot;</span>,<span class="string">&quot;[UNK]&quot;</span>,<span class="string">&quot;[MASK]&quot;</span>]</span><br><span class="line">    <span class="keyword">for</span> item <span class="keyword">in</span> vocab_json[<span class="string">&#x27;model&#x27;</span>][<span class="string">&#x27;vocab&#x27;</span>]:</span><br><span class="line">        vocab_txt.append(item) <span class="comment"># append key of vocab_json</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(vocab_dir+vocab_name,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        <span class="keyword">for</span> word <span class="keyword">in</span> vocab_txt:</span><br><span class="line">            f.write(word+<span class="string">&quot;\n&quot;</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span></span><br></pre></td></tr></table></figure></div>
+
+<p>流程很简单，就是把之前tokenizer生成的json文件中的vocab部分加上作者定义的[PAD]等特殊标记一起写入一个txt文件，做为词表。</p>
+<p>接着，readme提醒我们要去运行<code>process.py</code>，这个其实作者在intro中说了他是使用了UER-py (Universal Encoder Representations)这个预训练框架，作者使用了框架的现成方法来对前面生成的语料库进行预处理。</p>
+<blockquote>
+<p>根据readme，参数如下</p>
+<p>python3 preprocess.py –corpus_path corpora&#x2F;encrypted_traffic_burst.txt <br>                   –vocab_path models&#x2F;encryptd_vocab.txt <br>                   –dataset_path dataset.pt –processes_num 8 –target bert</p>
+</blockquote>
+<p>具体代码如下 </p>
+<div class="highlight-container" data-rel="Py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># process.py其实相当于一个命令行工具，作者给予了一些默认的args，这样用户可以更简便的使用UER框架来对数据进行预处理，根据默认值以及作者给的命令，代码</span></span><br><span class="line"><span class="comment"># 中的部分参数值如下</span></span><br><span class="line"><span class="comment"># args.tokenizer = bert</span></span><br><span class="line"><span class="comment"># args.target = bert</span></span><br><span class="line"><span class="comment"># args.tgt_tokenizer = bert</span></span><br><span class="line"><span class="comment"># args.processes_num = 8</span></span><br><span class="line"></span><br><span class="line">args = parser.parse_args()</span><br><span class="line"></span><br><span class="line"><span class="comment"># Dynamic masking.</span></span><br><span class="line"><span class="keyword">if</span> args.dynamic_masking:</span><br><span class="line">    args.dup_factor = <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Build tokenizer.</span></span><br><span class="line">tokenizer = str2tokenizer[args.tokenizer](args)</span><br><span class="line"><span class="keyword">if</span> args.target == <span class="string">&quot;seq2seq&quot;</span>:</span><br><span class="line">    args.tgt_tokenizer = str2tokenizer[args.tgt_tokenizer](args, <span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Build and save dataset.</span></span><br><span class="line">dataset = str2dataset[args.target](args, tokenizer.vocab, tokenizer)</span><br><span class="line">dataset.build_and_save(args.processes_num)</span><br></pre></td></tr></table></figure></div>
+
+<p><code>str2tokenizer</code>是在uer框架中定义的一个字典</p>
+<div class="highlight-container" data-rel="Py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">str2tokenizer = &#123;<span class="string">&quot;char&quot;</span>: CharTokenizer, <span class="string">&quot;space&quot;</span>: SpaceTokenizer, <span class="string">&quot;bert&quot;</span>: BertTokenizer&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>其实就是init了BertTokenizer对象，然后生成了dataset，说到底就是调包，但是我目前并没有详细去看这个build_and_save是怎么生成的，只是粗略的看了一下，这个函数是BertDataset继承于Dataset的，该函数首先会计算输入文本的总行数lines_num，并根据workers_num将文本分为多个子集，然后启动多个进程来并行处理这些子集。每个进程将调用worker函数来处理指定子集的文本，其中worker函数实际上是一个数据处理的工作函数。在worker函数中，会对输入文本进行分词、转换为ID序列等预处理操作，并将处理结果保存到一个.pt文件中。所有进程处理完毕后，会调用merge_dataset函数将所有.pt文件合并成一个完整的数据集文件。</p>
+<div class="highlight-container" data-rel="Py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">build_and_save</span>(<span class="params">self, workers_num</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Build dataset from the given corpus.</span></span><br><span class="line"><span class="string">    Start workers_num processes and each process deals with a part of data.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    lines_num = count_lines(self.corpus_path)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Starting %d workers for building datasets ... &quot;</span> % workers_num)</span><br><span class="line">    <span class="keyword">assert</span> (workers_num &gt;= <span class="number">1</span>)</span><br><span class="line">    <span class="keyword">if</span> workers_num == <span class="number">1</span>:</span><br><span class="line">        self.worker(<span class="number">0</span>, <span class="number">0</span>, lines_num)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        pool = Pool(workers_num)</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(workers_num):</span><br><span class="line">            start = i * lines_num // workers_num</span><br><span class="line">            end = (i + <span class="number">1</span>) * lines_num // workers_num</span><br><span class="line">            pool.apply_async(func=self.worker, args=[i, start, end])</span><br><span class="line">        pool.close()</span><br><span class="line">        pool.join()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Merge datasets.</span></span><br><span class="line">    merge_dataset(self.dataset_path, workers_num)</span><br></pre></td></tr></table></figure></div>
+
+<p>具体的BertDataset的worker函数如下</p>
+<div class="highlight-container" data-rel="Py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">worker</span>(<span class="params">self, proc_id, start, end</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Worker %d is building dataset ... &quot;</span> % proc_id)</span><br><span class="line">    set_seed(self.seed)</span><br><span class="line">    docs_buffer = []</span><br><span class="line">    document = []</span><br><span class="line">    pos = <span class="number">0</span></span><br><span class="line">    dataset_writer = <span class="built_in">open</span>(<span class="string">&quot;dataset-tmp-&quot;</span> + <span class="built_in">str</span>(proc_id) + <span class="string">&quot;.pt&quot;</span>, <span class="string">&quot;wb&quot;</span>)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(self.corpus_path, mode=<span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        <span class="keyword">while</span> pos &lt; start:</span><br><span class="line">            f.readline()</span><br><span class="line">            pos += <span class="number">1</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            line = f.readline()</span><br><span class="line">            pos += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> pos &gt;= end:</span><br><span class="line">                <span class="keyword">if</span> <span class="built_in">len</span>(docs_buffer) &gt; <span class="number">0</span>:</span><br><span class="line">                    instances = self.build_instances(docs_buffer)</span><br><span class="line">                    <span class="keyword">for</span> instance <span class="keyword">in</span> instances:</span><br><span class="line">                        pickle.dump(instance, dataset_writer)</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> line.strip():</span><br><span class="line">                <span class="keyword">if</span> <span class="built_in">len</span>(document) &gt;= <span class="number">1</span>:</span><br><span class="line">                    docs_buffer.append(document)</span><br><span class="line">                document = []</span><br><span class="line">                <span class="keyword">if</span> <span class="built_in">len</span>(docs_buffer) == self.docs_buffer_size:</span><br><span class="line">                    <span class="comment"># Build instances from documents.</span></span><br><span class="line">                    instances = self.build_instances(docs_buffer)</span><br><span class="line">                    <span class="comment"># Save instances.</span></span><br><span class="line">                    <span class="keyword">for</span> instance <span class="keyword">in</span> instances:</span><br><span class="line">                        pickle.dump(instance, dataset_writer)</span><br><span class="line">                    <span class="comment"># Clear buffer.</span></span><br><span class="line">                    docs_buffer = []</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            sentence = self.tokenizer.convert_tokens_to_ids(self.tokenizer.tokenize(line))</span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">len</span>(sentence) &gt; <span class="number">0</span>:</span><br><span class="line">                document.append(sentence)</span><br><span class="line"></span><br><span class="line">    dataset_writer.close()</span><br></pre></td></tr></table></figure></div>
+
+<p><code>worker</code>函数是用来对corpus数据集进行预处理的。具体来说，它会将corpus按照指定的大小分成多个部分，然后每个worker进程会处理其中一个部分的数据。在处理数据时，<code>worker</code>函数会先读取corpus中的一行文本，然后进行分词和编码，并将结果存储到一个缓冲区中。当缓冲区中的文本达到一定数量时，<code>worker</code>函数会将缓冲区中的数据转换为模型训练所需的格式，并将其写入一个临时的文件中。当所有的数据处理完毕后，<code>merge_dataset</code>函数会将所有的临时文件合并为一个完整的数据集文件。</p>
+<h3 id="预训练-1"><a href="#预训练-1" class="headerlink" title="预训练"></a>预训练</h3><p>类似的，预训练部分也给了样例</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">python3 pre-training/pretrain.py --dataset_path dataset.pt --vocab_path models/encryptd_vocab.txt \</span><br><span class="line">                    --output_model_path models/pre-trained_model.bin \</span><br><span class="line">                    --world_size 8 --gpu_ranks 0 1 2 3 4 5 6 7 \</span><br><span class="line">                    --total_steps 500000 --save_checkpoint_steps 10000 --batch_size 32 \</span><br><span class="line">                    --embedding word_pos_seg --encoder transformer --mask fully_visible --target bert</span><br></pre></td></tr></table></figure></div>
+
+<p>略去对参数的定义部分，pretrain.py代码如下</p>
+<div class="highlight-container" data-rel="Py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 同上，args的一些默认值罗列如下</span></span><br><span class="line"><span class="comment"># args.target = bert</span></span><br><span class="line"><span class="comment"># args.config_path = models/bert/base_config.json</span></span><br><span class="line"><span class="comment"># args.gpu_ranks = [0,1,2,3,4,5,6,7]</span></span><br><span class="line"><span class="comment"># args.world_size = 8</span></span><br><span class="line"></span><br><span class="line">args = parser.parse_args()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> args.target == <span class="string">&quot;cls&quot;</span>:</span><br><span class="line">    <span class="keyword">assert</span> args.labels_num <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>, <span class="string">&quot;Cls target needs the denotation of the number of labels.&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Load hyper-parameters from config file. </span></span><br><span class="line"><span class="keyword">if</span> args.config_path:</span><br><span class="line">    load_hyperparam(args)</span><br><span class="line"></span><br><span class="line">ranks_num = <span class="built_in">len</span>(args.gpu_ranks)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> args.world_size &gt; <span class="number">1</span>:</span><br><span class="line">    <span class="comment"># Multiprocessing distributed mode.</span></span><br><span class="line">    <span class="keyword">assert</span> torch.cuda.is_available(), <span class="string">&quot;No available GPUs.&quot;</span></span><br><span class="line">    <span class="keyword">assert</span> ranks_num &lt;= args.world_size, <span class="string">&quot;Started processes exceed `world_size` upper limit.&quot;</span></span><br><span class="line">    <span class="keyword">assert</span> ranks_num &lt;= torch.cuda.device_count(), <span class="string">&quot;Started processes exceeds the available GPUs.&quot;</span></span><br><span class="line">    args.dist_train = <span class="literal">True</span></span><br><span class="line">    args.ranks_num = ranks_num</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Using distributed mode for training.&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> args.world_size == <span class="number">1</span> <span class="keyword">and</span> ranks_num == <span class="number">1</span>:</span><br><span class="line">    <span class="comment"># Single GPU mode.</span></span><br><span class="line">    <span class="keyword">assert</span> torch.cuda.is_available(), <span class="string">&quot;No available GPUs.&quot;</span></span><br><span class="line">    args.gpu_id = args.gpu_ranks[<span class="number">0</span>]</span><br><span class="line">    <span class="keyword">assert</span> args.gpu_id &lt; torch.cuda.device_count(), <span class="string">&quot;Invalid specified GPU device.&quot;</span></span><br><span class="line">    args.dist_train = <span class="literal">False</span></span><br><span class="line">    args.single_gpu = <span class="literal">True</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Using GPU %d for training.&quot;</span> % args.gpu_id)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="comment"># CPU mode.</span></span><br><span class="line">    <span class="keyword">assert</span> ranks_num == <span class="number">0</span>, <span class="string">&quot;GPUs are specified, please check the arguments.&quot;</span></span><br><span class="line">    args.dist_train = <span class="literal">False</span></span><br><span class="line">    args.single_gpu = <span class="literal">False</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Using CPU mode for training.&quot;</span>)</span><br><span class="line"></span><br><span class="line">trainer.train_and_validate(args)</span><br></pre></td></tr></table></figure></div>
+
+<p>可以看出核心是trainer,train_and_validate(args)，trainer也是uer定义的一个基础类，这里根据我们传入的参数会变成BertTrainer，接着train_and_validate函数如下</p>
+<div class="highlight-container" data-rel="Py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">train_and_validate</span>(<span class="params">args</span>):</span><br><span class="line">    set_seed(args.seed)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Load vocabulary.</span></span><br><span class="line">    <span class="keyword">if</span> args.spm_model_path:</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="keyword">import</span> sentencepiece <span class="keyword">as</span> spm</span><br><span class="line">        <span class="keyword">except</span> ImportError:</span><br><span class="line">            <span class="keyword">raise</span> ImportError(<span class="string">&quot;You need to install SentencePiece to use XLNetTokenizer: https://github.com/google/sentencepiece&quot;</span></span><br><span class="line">                              <span class="string">&quot;pip install sentencepiece&quot;</span>)</span><br><span class="line">        sp_model = spm.SentencePieceProcessor()</span><br><span class="line">        sp_model.Load(args.spm_model_path)</span><br><span class="line">        args.vocab = &#123;sp_model.IdToPiece(i): i <span class="keyword">for</span> i</span><br><span class="line">                      <span class="keyword">in</span> <span class="built_in">range</span>(sp_model.GetPieceSize())&#125;</span><br><span class="line">        args.tokenizer = str2tokenizer[args.tokenizer](args)</span><br><span class="line">        <span class="keyword">if</span> args.target == <span class="string">&quot;seq2seq&quot;</span>:</span><br><span class="line">            tgt_sp_model = spm.SentencePieceProcessor()</span><br><span class="line">            tgt_sp_model.Load(args.tgt_spm_model_path)</span><br><span class="line">            args.tgt_vocab = &#123;tgt_sp_model.IdToPiece(i): i <span class="keyword">for</span> i</span><br><span class="line">                              <span class="keyword">in</span> <span class="built_in">range</span>(tgt_sp_model.GetPieceSize())&#125;</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        args.tokenizer = str2tokenizer[args.tokenizer](args)</span><br><span class="line">        args.vocab = args.tokenizer.vocab</span><br><span class="line">        <span class="keyword">if</span> args.target == <span class="string">&quot;seq2seq&quot;</span>:</span><br><span class="line">            tgt_vocab = Vocab()</span><br><span class="line">            tgt_vocab.load(args.tgt_vocab_path)</span><br><span class="line">            args.tgt_vocab = tgt_vocab.w2i</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Build model.</span></span><br><span class="line">    model = build_model(args)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Load or initialize parameters.</span></span><br><span class="line">    <span class="keyword">if</span> args.pretrained_model_path <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">        <span class="comment"># Initialize with pretrained model.</span></span><br><span class="line">        model = load_model(model, args.pretrained_model_path) </span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="comment"># Initialize with normal distribution.</span></span><br><span class="line">        <span class="keyword">for</span> n, p <span class="keyword">in</span> <span class="built_in">list</span>(model.named_parameters()):</span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;gamma&quot;</span> <span class="keyword">not</span> <span class="keyword">in</span> n <span class="keyword">and</span> <span class="string">&quot;beta&quot;</span> <span class="keyword">not</span> <span class="keyword">in</span> n:</span><br><span class="line">                p.data.normal_(<span class="number">0</span>, <span class="number">0.02</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> args.dist_train:</span><br><span class="line">        <span class="comment"># Multiprocessing distributed mode.</span></span><br><span class="line">        mp.spawn(worker, nprocs=args.ranks_num, args=(args.gpu_ranks, args, model), daemon=<span class="literal">False</span>)</span><br><span class="line">    <span class="keyword">elif</span> args.single_gpu:</span><br><span class="line">        <span class="comment"># Single GPU mode.</span></span><br><span class="line">        worker(args.gpu_id, <span class="literal">None</span>, args, model)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="comment"># CPU mode.</span></span><br><span class="line">        worker(<span class="literal">None</span>, <span class="literal">None</span>, args, model)</span><br></pre></td></tr></table></figure></div>
+
+<p>其中，首先加载词汇表（vocabulary），如果使用的是 SentencePiece 模型，则加载 SentencePiece 的模型，将其转化为一个字典，映射单词到其对应的索引；如果没有使用 SentencePiece 模型，则直接使用给定的词汇表。然后使用给定的参数构建模型。接下来，根据所选的训练模式（分布式、单 GPU 或 CPU）启动相应的 worker 函数。如果使用分布式训练，则通过调用 <code>mp.spawn()</code> 函数来启动多个 worker；如果使用单 GPU，则通过传递 <code>gpu_id</code> 参数来指定使用哪个 GPU；如果使用 CPU，则将 <code>gpu_id</code> 参数设置为 <code>None</code>。</p>
+<p>这里的model包括worker，都是UER定义并且封装好的，我们直接调用即可</p>
+<h3 id="微调"><a href="#微调" class="headerlink" title="微调"></a>微调</h3><p>readme中样例如下</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">python3 inference/run_classifier_infer.py --load_model_path models/finetuned_model.bin \</span><br><span class="line">                                          --vocab_path models/encryptd_vocab.txt \</span><br><span class="line">                                          --test_path datasets/cstnet-tls1.3/packet/nolabel_test_dataset.tsv \</span><br><span class="line">                                          --prediction_path datasets/cstnet-tls1.3/packet/prediction.tsv \</span><br><span class="line">                                          --labels_num 120 \</span><br><span class="line">                                          --embedding word_pos_seg --encoder transformer --mask fully_visible</span><br></pre></td></tr></table></figure></div>
+
+<p>参数作用如下：</p>
+<ul>
+<li><code>load_model_path</code>：指定模型的加载路径。</li>
+<li><code>vocab_path</code>：指定词汇表文件的路径。</li>
+<li><code>test_path</code>：指定输入的测试数据集文件路径。</li>
+<li><code>prediction_path</code>：指定输出的预测结果文件路径。</li>
+<li><code>labels_num</code>：指定分类的标签数量。</li>
+<li><code>embedding</code>：指定输入序列的编码方式，可以是 <code>word</code>，<code>word_pos</code>，<code>word_pos_seg</code> 中的一个。</li>
+<li><code>encoder</code>：指定编码器的类型，可以是 <code>lstm</code>，<code>transformer</code> 中的一个。</li>
+<li><code>mask</code>：指定序列的蒙版类型，可以是 <code>fully_visible</code>，<code>causal</code> 中的一个。</li>
+</ul>
+<p>使用加载的模型和指定的词汇表对输入的测试数据集进行分类，并将预测结果输出到指定的文件路径。</p>
+<p>其核心代码如下</p>
+<div class="highlight-container" data-rel="Py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line">model = Classifier(args)</span><br><span class="line">model = load_model(model, args.load_model_path)</span><br><span class="line"></span><br><span class="line"><span class="comment"># For simplicity, we use DataParallel wrapper to use multiple GPUs.</span></span><br><span class="line">device = torch.device(<span class="string">&quot;cuda&quot;</span> <span class="keyword">if</span> torch.cuda.is_available() <span class="keyword">else</span> <span class="string">&quot;cpu&quot;</span>)</span><br><span class="line">model = model.to(device)</span><br><span class="line"><span class="keyword">if</span> torch.cuda.device_count() &gt; <span class="number">1</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;&#123;&#125; GPUs are available. Let&#x27;s use them.&quot;</span>.<span class="built_in">format</span>(torch.cuda.device_count()))</span><br><span class="line">    model = torch.nn.DataParallel(model)</span><br><span class="line"></span><br><span class="line">dataset = read_dataset(args, args.test_path)</span><br><span class="line"></span><br><span class="line">src = torch.LongTensor([sample[<span class="number">0</span>] <span class="keyword">for</span> sample <span class="keyword">in</span> dataset])</span><br><span class="line">seg = torch.LongTensor([sample[<span class="number">1</span>] <span class="keyword">for</span> sample <span class="keyword">in</span> dataset])</span><br><span class="line"></span><br><span class="line">batch_size = args.batch_size</span><br><span class="line">instances_num = src.size()[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;The number of prediction instances: &quot;</span>, instances_num)</span><br><span class="line"></span><br><span class="line">model.<span class="built_in">eval</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(args.prediction_path, mode=<span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(<span class="string">&quot;label&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> args.output_logits:</span><br><span class="line">        f.write(<span class="string">&quot;\t&quot;</span> + <span class="string">&quot;logits&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> args.output_prob:</span><br><span class="line">        f.write(<span class="string">&quot;\t&quot;</span> + <span class="string">&quot;prob&quot;</span>)</span><br><span class="line">    f.write(<span class="string">&quot;\n&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> i, (src_batch, seg_batch) <span class="keyword">in</span> <span class="built_in">enumerate</span>(batch_loader(batch_size, src, seg)):</span><br><span class="line">        src_batch = src_batch.to(device)</span><br><span class="line">        seg_batch = seg_batch.to(device)</span><br><span class="line">        <span class="keyword">with</span> torch.no_grad():</span><br><span class="line">            _, logits = model(src_batch, <span class="literal">None</span>, seg_batch)</span><br><span class="line">        </span><br><span class="line">        pred = torch.argmax(logits, dim=<span class="number">1</span>)</span><br><span class="line">        pred = pred.cpu().numpy().tolist()</span><br><span class="line">        prob = nn.Softmax(dim=<span class="number">1</span>)(logits)</span><br><span class="line">        logits = logits.cpu().numpy().tolist()</span><br><span class="line">        prob = prob.cpu().numpy().tolist()</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(pred)):</span><br><span class="line">            f.write(<span class="built_in">str</span>(pred[j]))</span><br><span class="line">            <span class="keyword">if</span> args.output_logits:</span><br><span class="line">                f.write(<span class="string">&quot;\t&quot;</span> + <span class="string">&quot; &quot;</span>.join([<span class="built_in">str</span>(v) <span class="keyword">for</span> v <span class="keyword">in</span> logits[j]]))</span><br><span class="line">            <span class="keyword">if</span> args.output_prob:</span><br><span class="line">                f.write(<span class="string">&quot;\t&quot;</span> + <span class="string">&quot; &quot;</span>.join([<span class="built_in">str</span>(v) <span class="keyword">for</span> v <span class="keyword">in</span> prob[j]]))</span><br><span class="line">            f.write(<span class="string">&quot;\n&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<p>主要是在打开prediction_path后那个for循环中，这个循环会</p>
+<ol>
+<li>从数据集中取出batch_size个样本，构成一个批次；</li>
+<li>将批次数据送入模型进行前向计算，得到预测结果；</li>
+<li>将预测结果输出到指定路径的tsv文件中。</li>
+</ol>
+<p>具体来说，如下：</p>
+<ol>
+<li><code>batch_loader(batch_size, src, seg)</code>函数将数据集中的src和seg分别以batch_size为大小进行切分，返回一个生成器，每次yield出一个(batch_size, seq_len)的src_batch和一个(batch_size, seq_len)的seg_batch；</li>
+<li>将src_batch和seg_batch分别移动到指定的设备（GPU或CPU）上；</li>
+<li>通过调用模型的forward方法，得到模型对当前批次的预测结果，即logits；</li>
+<li>对logits沿着第1个维度（即各个样本）取最大值，得到预测的类别（即预测值）pred；</li>
+<li>将pred、logits和概率（即使用softmax函数对logits进行归一化后的结果）prob分别从GPU中移动到CPU上，并以列表形式输出；</li>
+<li>将每个样本的预测结果写入tsv文件中，每行一个样本，第一列为预测的类别，第二列（如果args.output_logits为True）为预测的logits，第三列（如果args.output_prob为True）为预测的概率。</li>
+</ol>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul>
+        <li>Post title：ET-BERT学习</li>
+        <li>Post author：trph</li>
+        <li>Create time：2023-03-20 22:44:12</li>
+        <li>
+            Post link：https://blog.rightpath.top/2023/03/20/ET-BERT学习/
+        </li>
+        <li>
+            Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
+        </li>
+    </ul>
+</div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/AI/">#AI</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                            rel="next"
+                            href="/2023/03/13/%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6/"
+                            >
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">研究现状</span>
+                                    <span class="post-nav-item">Next posts</span>
+                                </span>
+                                <span class="right arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">ET-BERT学习</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#BERT-amp-ET-BERT-paper"><span class="nav-text">BERT&amp;ET-BERT paper</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Vocab"><span class="nav-text">Vocab</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Embedding"><span class="nav-text">Embedding</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Pre-Training"><span class="nav-text">Pre-Training</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fine-Tuning"><span class="nav-text">Fine-Tuning</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ET-BERT-code"><span class="nav-text">ET-BERT code</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A4"><span class="nav-text">步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A2%84%E5%A4%84%E7%90%86"><span class="nav-text">预处理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A2%84%E8%AE%AD%E7%BB%83"><span class="nav-text">预训练</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BE%AE%E8%B0%83%E4%B8%8B%E6%B8%B8%E4%BB%BB%E5%8A%A1"><span class="nav-text">微调下游任务</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86"><span class="nav-text">数据预处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%84%E8%AE%AD%E7%BB%83-1"><span class="nav-text">预训练</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%AE%E8%B0%83"><span class="nav-text">微调</span></a></li></ol></li></ol></li></ol>
+
+    </div>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+
+                
+
+            </div>
+
+
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info">
+            &copy;
+            
+              <span>2022</span>
+              -
+            
+            2023&nbsp;&nbsp;<i class="fa-regular fa-computer-classic"></i>&nbsp;&nbsp;<a href="/">trph</a>
+        </div>
+        
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv" class="busuanzi_container_site_uv">
+                        VISITOR COUNT&nbsp;<span id="busuanzi_value_site_uv" class="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="busuanzi_container_site_pv">
+                        TOTAL PAGE VIEWS&nbsp;<span id="busuanzi_value_site_pv" class="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            <span class="powered-by-container">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" href="https://hexo.io">Hexo</a></span>
+                <br> 
+            <span class="theme-version-container">THEME&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v1.1.6</a>
+        </div>
+        
+        
+        
+            <div id="start_time_div" style="display:none">
+                2022/8/17 11:45:14
+            </div>
+            <div>
+                Blog up for <span class="odometer" id="runtime_days" ></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+        
+            <script async data-pjax>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="unfolded-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-expand-width flex-center">
+            <i class="fa-regular fa-expand"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex-center">
+                <i class="fa-regular fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="folded-tools-list">
+        <li class="right-bottom-tools tool-toggle-show flex-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/layouts/menu-shrink.js"></script>
+
+<script src="/js/tools/go-top-bottom.js"></script>
+
+<script src="/js/tools/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/tools/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/layouts/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/tools/toc-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/layouts/toc.js"></script>
+
+<script src="/js/plugins/tabs.js"></script>
+
+    
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            REDEFINE.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            REDEFINE.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            REDEFINE.refresh();
+        });
+    });
+</script>
+
+
+
+
+</body>
+</html>
